@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className="flex items-center absolute w-full z-10">
       <Image className="flex-grow-0" src={logo} alt="logo" />
 
-      <ul className="list-none flex flex-grow-[2] justify-evenly text-white uppercase">
+      <ul className="list-none lg:flex flex-grow-[2] justify-evenly text-white uppercase hidden">
         <li>
           <Link href="/">
             Home

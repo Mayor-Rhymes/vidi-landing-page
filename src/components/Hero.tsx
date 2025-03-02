@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <div className="flex relative">
+    <div className="flex relative w-full">
       <div className="relative">
         <div className="absolute top-0 left-0 h-full w-full bg-black opacity-85 flex items-center justify-center"></div>
         <div className="absolute top-0 right-0 w-full h-full flex flex-col items-center space-y-10 justify-center">
