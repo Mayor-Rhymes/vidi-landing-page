@@ -6,17 +6,15 @@ import { cn } from "@/lib/utils";
 
 export default function ApproachJoin() {
   return (
-    <div className="py-10 flex flex-col gap-20">
-      <div className="flex justify-center items-center">
+    <div className="py-10 flex flex-col">
+      <div className="flex lg:flex-row flex-col justify-center items-center gap-y-10 px-4">
         <Image
           src={approachImage}
           alt="mission-image"
-          className="ml-10"
-          // height={474}
-          // width={652}
+           className="lg:w-[45%]"
         />
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col lg:w-[45%] items-center">
           <h3 className="text-center uppercase text-xl font-bold">
             Our Approach
           </h3>
@@ -27,16 +25,16 @@ export default function ApproachJoin() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center flex-row-reverse items-center">
+      <div className="flex justify-center flex-col lg:flex-row-reverse gap-y-10 items-center px-4">
         <Image
           src={joinusImage}
           alt="vision-image"
-          className="mr-10"
+          className="lg:w-[45%]"
           // height={474}
           // width={652}
         />
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col lg:w-[45%] items-center">
           <h3 className="text-center uppercase text-xl font-bold">Join us</h3>
           <p className="text-center text-wrap lg:w-[50%]">
             Join us in our mission to build a safer Africa. Explore our past
@@ -48,7 +46,7 @@ export default function ApproachJoin() {
 
       <Button
         variant="destructive"
-        className={cn("self-center")}
+        className={cn("self-center mt-10")}
       >
         Make a Change
       </Button>

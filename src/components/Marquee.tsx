@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export default function Marquee() {
   return (
     <div className="flex flex-col space-y-10 py-4">
-      <div className="flex py-10">
+      <div className="flex py-10 lg:flex-row flex-col lg:p-10">
         <Image src={marquee1} alt="marquee1" />
         <Image src={marquee2} alt="marquee2" />
         <Image src={marquee3} alt="marquee3" />
