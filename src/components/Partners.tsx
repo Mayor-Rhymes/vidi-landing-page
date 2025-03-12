@@ -39,7 +39,9 @@ export default function Partners() {
                 </div>
             </div>
 
-            <Button variant="destructive" className="self-center">Partner with Us</Button>
+            <Button variant="destructive" className="self-center" size="lg">
+                <span className="text-lg font-semibold">Partner with Us</span>
+            </Button>
         </div>
     )
 }

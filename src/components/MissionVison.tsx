@@ -59,9 +59,10 @@ export default function MissionVision() {
 
       <Button
         variant="outline"
-        className={cn("self-center border-red-600")}
+        className={cn("self-center border-red-600 border-2")}
+        size="lg"
       >
-        Learn More
+        <p className="text-lg font-semibold">Learn More</p>
       </Button>
     </div>
   );

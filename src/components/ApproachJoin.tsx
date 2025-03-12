@@ -8,11 +8,7 @@ export default function ApproachJoin() {
   return (
     <div className="py-10 flex flex-col">
       <div className="flex lg:flex-row flex-col justify-center items-center gap-y-10 px-4">
-        <Image
-          src={approachImage}
-          alt="mission-image"
-           className="lg:w-[45%]"
-        />
+        <Image src={approachImage} alt="mission-image" className="lg:w-[45%]" />
 
         <div className="flex flex-col lg:w-[45%] items-center">
           <h3 className="text-center uppercase text-xl font-bold">
@@ -47,8 +43,9 @@ export default function ApproachJoin() {
       <Button
         variant="destructive"
         className={cn("self-center mt-10")}
+        size="lg"
       >
-        Make a Change
+        <span className="text-lg font-semibold">Make a Change</span>
       </Button>
     </div>
   );

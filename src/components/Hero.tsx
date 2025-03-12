@@ -14,7 +14,9 @@ export default function Hero() {
           <p className="text-2xl">Against <span className="text-4xl">Abuse</span></p>
         </article>
 
-        <Button variant="destructive" className={cn("rounded-md")}>Join Us</Button>
+        <Button variant="destructive" className={cn("rounded-md")} size="lg">
+          <span className="text-lg font-semibold">Join Us</span>
+        </Button>
       </div>
       <div className="w-[60%] bg-heroImage2 bg-no-repeat bg-cover bg-top"></div>
     </div>
