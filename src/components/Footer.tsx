@@ -52,19 +52,19 @@ export default function Footer() {
       <div className="flex flex-col gap-4 items-center justify-center flex-grow">
         <Image src={vidiLogo} alt="logo" />
         <div className="flex gap-x-4">
-          <Link href="/">
+          <Link href="/" className="hover:scale-110 transition-transform">
             <Image src={facebook} alt="facebook" className="w-7 h-7" />
           </Link>
-          <Link href="/">
+          <Link href="/" className="hover:scale-110 transition-transform">
             <Image src={linkedin} alt="linkedin" className="w-7 h-7" />
           </Link>
-          <Link href="/">
+          <Link href="/" className="hover:scale-110 transition-transform">
             <Image src={xLogo} alt="x-logo" className="w-7 h-7" />
           </Link>
-          <Link href="/">
+          <Link href="/" className="hover:scale-110 transition-transform">
             <Image src={instagram} alt="instagram" className="w-7 h-7" />
           </Link>
-          <Link href="/">
+          <Link href="/" className="hover:scale-110 transition-transform">
             <Image src={threads} alt="threads" className="w-7 h-7" />
           </Link>
         </div>

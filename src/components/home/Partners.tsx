@@ -6,7 +6,7 @@ import womenAffairs from "/public/images/logos-partners/women-affairs-ministry.p
 import govAbia from "/public/images/logos-partners/gov-abia.png";
 import ndi from "/public/images/logos-partners/ndi.png";
 import nactal from "/public/images/logos-partners/nactal.png";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 
 export default function Partners() {

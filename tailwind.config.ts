@@ -12,6 +12,7 @@ export default {
       backgroundImage: {
         heroImage1: "url('/images/pic1.png')",
         heroImage2: "url('/images/pic2.png')",
+        heroImage3: "url('/images/about-hero-image.png')",
       },
       colors: {
         background: "hsl(var(--background))",
